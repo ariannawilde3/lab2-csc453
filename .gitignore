@@ -1,0 +1,13 @@
+# the compiled binaries 
+fork_loop
+observe_syscalls
+benchmark_syscall
+benchmark_io
+
+# object files 
+*.o
+*.txt.bak 
+echo_trace.txt
+strace_ls.txt 
+
+# editor 
