@@ -7,7 +7,7 @@
 int main(void) {
 
     /* step 1 */ 
-    pid_t = getpid();
+    pid_t pid = getpid();
     printf("PID: %d\n", pid);
 
     /* step 2 */ 
