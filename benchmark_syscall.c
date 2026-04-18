@@ -18,7 +18,7 @@ int main(void) {
 
     clock_gettime(CLOCK_MONOTONIC, &t0);
 
-    for (int i = 0; i < ITERATIONS, i++) {
+    for (int i = 0; i < ITERATIONS; i++) {
         pid = getpid();
     }
 
