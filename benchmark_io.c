@@ -21,7 +21,7 @@ static long elapsed_ns(struct timespec start, struct timespec end)
 static void benchmark_unbuffered(int fileDescriptor) {
     char chunk[CHUNK_SIZE];
     memset(chunk, 'A', CHUNK_SIZE);
-    for(int i = 0; i < NUM_WRITES, i++) {
+    for(int i = 0; i < NUM_WRITES; i++) {
         write(fileDescriptor, chunk, CHUNK_SIZE);
     }
 }
